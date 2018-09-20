@@ -4,10 +4,10 @@ print("+               [!] powered by yazeed [!]                  +")
 print("+                                                          +")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
-import smplib
+import smtplib
 
 smtpserver = smtplib.SMTP("smtp.gmail.com",587)
-smtpserve.ehlo()
+smtpserver.ehlo()
 smtpserver.starttls()
 
 email = raw_input("Enter Email Targets: ")
