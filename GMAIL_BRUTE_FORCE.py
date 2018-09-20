@@ -6,7 +6,7 @@ print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
 import smplib
 
-smtpserver = smtplib.SMTP("smtp.gmail.com" 587)
+smtpserver = smtplib.SMTP("smtp.gmail.com",587)
 smtpserve.ehlo()
 smtpserver.starttls()
 
