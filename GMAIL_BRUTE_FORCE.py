@@ -12,6 +12,7 @@ smtpserver.ehlo()
 smtpserver.starttls()
 
 email = raw_input("Enter Email Targets: ")
+print("+++++++++++++++++++++++++++++++++++++++++++++")
 passwfile = raw_input("Enter WordList File: ")
 passwfile = open(passwfile,'r')
                  
