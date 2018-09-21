@@ -64,3 +64,19 @@ My Personal Account on Instagram:https://www.instagram.com/yazeed.yazeed.351/
 # How to Use Nmap Script:
 
 Enter Url or IP: www.example.com
+
+# Steps To Use Office365 Brute Force script:
+
+# Example:
+
+1.Enter Email Target: example.example.com
+
+2.Enter Wordlist File: /root/Desktop/example.txt
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS FOUND =======> yazeed1232
