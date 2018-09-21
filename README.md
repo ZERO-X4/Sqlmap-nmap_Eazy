@@ -8,24 +8,15 @@ My Personal Account on Instagram:https://www.instagram.com/yazeed.yazeed.351/
 
 =====================================================================================================
 
-Steps:
-===============
+# Steps:
 1.git clone https://github.com/yazeed33/brute_force-more/
-======================
 2.chmod +x *
-====================
 .
 .
 .
-====================
-Steps to use the Sqlmap script:
-=============================
+# Steps to use the Sqlmap script:
 1.Enter Url: http://www.example.com/php?id=1
-========================================
 2.Enter DATABASES Name: db64re2344
-===============================
 3.Enter TABLE Name: users
-===============================
 4.Enter Column Name: pass,users
-==============================
 5.finish
