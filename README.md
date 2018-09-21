@@ -33,7 +33,7 @@ My Personal Account on Instagram:https://www.instagram.com/yazeed.yazeed.351/
 
 # Example:
 
-1.Enter Email Target:example.gmail.com
+1.Enter Email Target: example.gmail.com
 
 2.Enter Wordlist File: /root/Desktop/example.txt
 
@@ -49,7 +49,7 @@ My Personal Account on Instagram:https://www.instagram.com/yazeed.yazeed.351/
 
 # Example:
 
-1.Enter Email Target:example.outlook.com
+1.Enter Email Target: example.outlook.com
 
 2.Enter Wordlist File: /root/Desktop/example.txt
 
