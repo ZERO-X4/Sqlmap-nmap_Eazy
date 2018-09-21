@@ -28,3 +28,39 @@ My Personal Account on Instagram:https://www.instagram.com/yazeed.yazeed.351/
 
 
 5.finish
+
+# Steps To Use GMAIL Brute Force script:
+
+# Example:
+
+1.Enter Email Target:example.gmail.com
+
+2.Enter Wordlist File: /root/Desktop/example.txt
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS FOUND =======> yazeed1232
+
+# Steps To Use OUTLOOK Brute Force script:
+
+# Example:
+
+1.Enter Email Target:example.outlook.com
+
+2.Enter Wordlist File: /root/Desktop/example.txt
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS FOUND =======> yazeed1232
+
+# How to Use Nmap Script:
+
+Enter Url or IP: www.example.com
