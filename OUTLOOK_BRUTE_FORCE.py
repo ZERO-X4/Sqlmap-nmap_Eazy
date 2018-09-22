@@ -18,7 +18,7 @@ else:
  system('clear')
  exit()
 
-smtpserver = smtplib.SMTP("smtp.live.com", 587)
+smtpserver = smtplib.SMTP("smtp-mail.outlook.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 
