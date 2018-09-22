@@ -9,7 +9,7 @@ from os import system
 
 print("[1] start attack")
 print("[2] exit")
-options = input("--> ")
+options = input("==> ")
 
 if options == 1:
    pass_file = raw_input("path of wordlist file: ")
