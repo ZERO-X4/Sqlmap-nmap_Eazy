@@ -1,9 +1,3 @@
-print '+++++++++++++++++++++++++++++++++++++++++-'
-print '|                                        |'
-print '|       [-] created by yazeed33 [-]      |'
-print '|                                        |'
-print '|+++++++++++++++++++++++++++++++++++++++++'
-
 import smtplib
 from os import system
 
@@ -12,6 +6,12 @@ print("[2] exit")
 options = input("==> ")
 
 if options == 1:
+   system('clear')
+   print '+++++++++++++++++++++++++++++++++++++++++-'
+   print '|                                        |'
+   print '|       [-] created by yazeed33 [-]      |'
+   print '|                                        |'
+   print '|+++++++++++++++++++++++++++++++++++++++++'
    pass_file = raw_input("path of wordlist file: ")
 
 else:
