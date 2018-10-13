@@ -38,7 +38,7 @@ if values == 1:
      os.system('clear')
      print '+++++++++++++++++++++++++++++++++++++++++++++++++'
      print '|                                               |'
-     print '|  output :   brute_force-more/output/          |'
+     print '|  output :   brute_force-more/output/{}.exe    |'.format(Path)
      print '|                                               |'
      print '|  Reverse : windows/meterpreter/reverse_tcp    |'
      print '|                                               |'
@@ -49,7 +49,7 @@ elif values == 2:
      os.system('clear')
      print '+++++++++++++++++++++++++++++++++++++++++++++++++'
      print '|                                               |'
-     print '|  output :  /brute_force-more/output/          |'
+     print '|  output :  /brute_force-more/output/{}.apk    |'.format(Path)
      print '|                                               |'
      print '|  Reverse : android/meterpreter/reverse_tcp    |'
      print '|                                               |'
