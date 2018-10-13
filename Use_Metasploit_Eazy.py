@@ -71,8 +71,8 @@ if value == 1:
    print '          Please Wait...'
    print '================================'
    os.system('service postgresql start')
-   os.system('msfconsole')
    os.system('clear')
+   os.system('msfconsole')
 
 else:
  print '======================'
