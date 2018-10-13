@@ -38,7 +38,7 @@ if values == 1:
      os.system('clear')
      print '+++++++++++++++++++++++++++++++++++++++++++++++++'
      print '|                                               |'
-     print '|  output :  /brute_force-more/output/          |'
+     print '|  output :   brute_force-more/output/          |'
      print '|                                               |'
      print '|  Reverse : windows/meterpreter/reverse_tcp    |'
      print '|                                               |'
