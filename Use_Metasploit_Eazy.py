@@ -12,7 +12,9 @@ if options == 1:
    print '|                                        |'
    print '|+++++++++++++++++++++++++++++++++++++++++'
    LhOsT = raw_input(' Enter LHOST: ')
+   print ''
    lPoRt = raw_input(' Enter LPORT: ')
+   print ''
    Path = raw_input(' Enter Payload Name: ')
 
 else:
